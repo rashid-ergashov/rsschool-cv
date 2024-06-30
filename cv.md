@@ -20,7 +20,6 @@
 - CSS
 - js
 - php (Basics)
-- cms (wordpress)
 
 ---
 
