@@ -4,6 +4,7 @@
 
 - phone: +998977370279
 - email: rashid26@mail.ru
+- city: Tashkent
 
 ## about me
 
@@ -17,6 +18,9 @@
 
 - HTML
 - CSS
+- js
+- php (Basics)
+- cms (wordpress)
 
 ---
 
@@ -41,4 +45,4 @@ function multiply(a, b) {
 
 ## English
 
-A0 (Hopefully soon I will pass the levela A1)
+A1 (Hopefully soon I will pass the levela A2)
