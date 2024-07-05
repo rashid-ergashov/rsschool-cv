@@ -1,210 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="assets/img/favicon.ico">
     <title>cv</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,900;1,100&display=swap"
+      rel="stylesheet">
   </head>
+
   <body>
-    <header class="heade">
+    <header class="header">
       <div class="container">
-        <nav class="menu">
-          <ul class="menu_item">
-            <li><a class="nsv_link" href="#contact">Contacts</a></li>
-            <li><a class="nsv_link" href="#skill">Skils</a></li>
-            <li><a class="nsv_link" href="#code">Code</a></li>
-            <li><a class="nsv_link" href="#langu">English</a></li>
-            <li><a class="nsv_link" href="#projects">Projects</a></li>
-            <li><a class="nsv_link" href="#edicate">Education</a></li>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#english" class="nav-link">English</a>
+            </li>
           </ul>
         </nav>
       </div>
     </header>
-    <main>
+
+    <main class="main">
       <div class="container">
-        <div class="container_wrap">
-          <div class="left">
-            <div class="img_wrap">
-              <img class="left_img" src="./assets/DSC.jpg" alt="photo" />
-            </div>
-            <section class="contacts" id="contact">
-              <div class="container_right">
-                <h3 class="contacts_title">contacts</h3>
-                <ul class="contacts_list">
-                  <li class="contacts_item">
-                    Phone<a class="contacts_link" href="tel:+998977370024">
-                      998977370145</a
-                    >
-                  </li>
-                  <li class="contacts_item">
-                    Email<a
-                      class="contacts_link"
-                      href="mailto:+rashid26@mail.ru"
-                    >
-                      rashid20@mail.ru</a
-                    >
-                  </li>
-                  <li class="contacts_item">City <span>Tashkent</span></li>
-                </ul>
-              </div>
-            </section>
-            <section class="education" id="edicate">
-              <div class="container_right">
-                <h3 class="education_title">Education</h3>
-                <ul class="educetion_list">
-                  <li class="education_item">Moscow Financial University</li>
-                </ul>
-              </div>
-            </section>
-            <section class="lang" id="langu">
-              <div class="container_right">
-                <h3 class="lang_title">languages</h3>
-                <ul class="lang_list">
-                  <li>Englishs a1>a2</li>
-                  <li>RUSSIAN (Native)</li>
-                </ul>
-              </div>
-            </section>
-          </div>
-          <div class="right">
-            <section class="main_section">
-              <div class="container_right">
-                <h1 class="main_title">Rashid Ergashov</h1>
-                <p class="main_subtitle">Beginner web developer</p>
-              </div>
-            </section>
-            <section class="about">
-              <div class="container_right">
-                <h2 class="about_title">About me</h2>
-                <p class="about_text">
-                  I graduated from the Moscow Financial University with a degree
-                  in management. My main qualities are patience and
-                  perseverance. I decided to try myself in web development at
-                  rs-school. Since childhood, I have had a predisposition to
-                  work with electronics and computers. I like to disassemble,
-                  assemble and configure something. I can build, configure,
-                  solve problems with computers.
-                </p>
-              </div>
-            </section>
-            <section class="software" id="skill">
-              <div class="container_right">
-                <h2 class="about_title">Skills</h2>
-                <div class="soft_skil">
-                  <ul class="soft_item">
-                    <li>
-                      html
-                      <div class="bar">
-                        <div class="bar_html"></div>
-                      </div>
-                    </li>
-                    <li>
-                      css
-                      <div class="bar">
-                        <div class="bar_css"></div>
-                      </div>
-                    </li>
+        <section class="section" id="profile">
+          <h1 class="section_title">Rashid Ergashov</h1>
+          <h2 class="section_paragraph">Beginner web developer</h2>
+          <img class="photo" src="assets/img/DSC.jpg" alt="Photo">
+          <hr class="horizon">
+        </section>
 
-                    <li>
-                      php
-                      <div class="bar">
-                        <div class="bar_php"></div>
-                      </div>
-                    </li>
-                    <li>
-                      js
-                      <div class="bar">
-                        <div class="bar_js"></div>
-                      </div>
-                    </li>
-                    <li>
-                      React
-                      <div class="bar">
-                        <div class="bar_react"></div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </section>
-            <div class="code" id="code">
-              <div class="container_right">
-                <h3 class="code_title">Code</h3>
-                <div class="code_wrap">
-                  <pre class="code_text">
-                    const arr = [25, 12, 45, 1, 98]
-                    function sortArr(sort) {
-                      sort.sort((a, b) => {
-                        return a - b
-                      })
-                    }
-                    sortArr(arr)
-
-                    </pre
-                  >
-                </div>
-              </div>
+        <section class="section" id="summary">
+          <div class="container">
+            <div class="section_summary">
+              <h2 class="section_text">About me</h2>
+              <p>
+                I graduated from the Moscow Financial University with a degree
+                in management. My main qualities are patience and perseverance.
+                I decided to try myself in web development at rs-school.
+              </p>
             </div>
-            <section class="projects" id="projects">
-              <div class="container_right">
-                <h3 class="projects_title">Projects</h3>
-                <div class="projects_wrap">
-                  <div class="projects_wrap">
-                    <a
-                      class="projects_link"
-                      href="https://thunderous-yeot-hotel.netlify.app/"
-                      target="_blank"
-                      ><img
-                        class="project_img"
-                        src="./assets/hotel.jpeg"
-                        alt=""
-                    /></a>
-                  </div>
-                  <div class="projects_wrap">
-                    <a
-                      class="projects_link"
-                      href="https://velvety-pithivier-garden.netlify.app/"
-                      target="_blank"
-                      ><img
-                        class="project_img"
-                        src="./assets/garden.jpeg"
-                        alt=""
-                    /></a>
-                  </div>
-                </div>
-              </div>
-            </section>
           </div>
+        </section>
+        <div class="main-container">
+          <section class="section" id="contacts">
+            <div class="container">
+              <h2 class="contacts">Contacts info</h2>
+              <ul class="contact_nav">
+                <li class="contact_list">
+                  <a href="" class="contact_link">998977372548</a>
+                </li>
+                <li class="contact_list">
+                  <a href="" class="contact_link">rahid26@mail.ru</a>
+                </li>
+                <li class="contact_list">City: Tashkent</li>
+              </ul>
+            </div>
+          </section>
+          <section class="Skills" id="skills">
+            <div class="container">
+              <h2>Skills</h2>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>js</li>
+                <li>php (basic)</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="Education" id="education">
+            <div class="container">
+              <h2>Education</h2>
+              <ul>
+                <li>Moscow Financial University</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="languages" id="english">
+            <div class="container">
+              <h2>languages</h2>
+              <ul>
+                <li>Englishs a0>a1</li>
+                <li>RUSSIAN (Native)</li>
+              </ul>
+            </div>
+          </section>
         </div>
+
+        <section class="code" id="code">
+          <div class="container">
+            <h2 class="code_item">Code</h2>
+            <pre>
+          function multiply(a, b){
+            return a * b
+          }
+         </pre
+            >
+          </div>
+        </section>
       </div>
     </main>
 
     <footer class="footer">
       <div class="container">
-        <div class="footer_wrap">
+        <div class="container-footer">
           <p>2024</p>
-
-          <a href="https://github.com/rashid-ergashov" target="_blank">
-            <img
-              class="footer_git"
-              src="./assets/iconmonstr-github-1-240.png"
-              alt="githab"
-            />
+          <a
+            class="mygit"
+            href="https://github.com/rashid-ergashov"
+            target="_blank"
+          >
+            <img class="git" src="./assets/img/git111.png" alt="logo">
           </a>
           <a
             href="https://rs.school/courses/javascript-preschool-ru"
-            target="_blank"
+            target="blank"
+            class="footer-image"
           >
-            <img
-              class="logo"
-              src="./assets/logo-rsschool3.png"
-              alt="rs-school"
-            />
+            <img class="img" src="./assets/img/rsschool-logo.svg" alt="rs-shcoll">
           </a>
         </div>
       </div>
     </footer>
-    <script src="./index.js"></script>
   </body>
 </html>
